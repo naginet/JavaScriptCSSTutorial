@@ -3,17 +3,22 @@
 }
 
 .btn {
-  background-color: white;
+  background-color: cwhite;
   color: black;
   border: 1px solid black;
   padding: 10px;
   margin: 50px 0;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease 1s, background-color 0.3s ease 2s;
+  transition: all 0.3s;
 }
-
 .btn:hover {
   background-color: black;
   color: white;
 }
+.btn-cube {
+  background-color: black;
+}
+.btn-cube .inner {
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
